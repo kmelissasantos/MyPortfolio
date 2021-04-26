@@ -13,6 +13,13 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    color: #EB9486;
+    font-weight: bold;
+    margin: 7px 0;
+    font-size: large;
+}
+
 .nav-container {
     background: #272838;
     grid-template-columns: auto;
@@ -28,13 +35,7 @@ header {
 }
 
 header nav {
-    margin: 7px 0;
-}
-
-header.logo {
-    color: #EB9486;
-    font-weight: bold;
-    margin: 7px 0;
+    margin: 10px 0 0 0px;
 }
 
 header ul {
@@ -45,16 +46,8 @@ header ul a {
     padding: 10px 15px;
     font-weight: lighter; 
 }
-
 .social-header {
-    display: flex;
-    width:auto;
-}
-
-.social-header ul {
-    display: flex;
     justify-content: space-between;
-    width: 7em;
     float: right;
 }
 
@@ -72,73 +65,73 @@ header ul a {
 
 .heroimg {
     width: 100%;
+    padding-left: 20%;
 }
 
-.meet {
-    display: flex;
-    margin: 0 auto;
-    width: 200px;
-    font-weight: bold;
+.content h1 {
     color: #F9F8F8;
+    text-align: right;
+    padding-top: 10%;
+    padding-left: 30%;
 }
 
 .meet p {
-    display: flex;
-    margin: 0 auto;
+    text-align: right;
+    width: 100 px;
     color:#F3DE8A;
 }
 
 section {
-    padding: 4em 2em;
+    padding: 10px;
     text-align: center;
     background: #EB9486;
 }
 
-.skills {
-    position: relative;
-    background: #EB9486;
-}
-
 .skills h1 {
-    color: #F9F8F8;
+    font-size: x-large;
 }
 
-.skills-container ul li {
-    background: #F3DE8A;
-    padding: 2em;
-    border-radius: 1em;
-    margin-bottom: 1em;
+.skills-container {
+    padding: 10px;
+    border-radius: 3em;
     display: grid;
-    grid-template-columns: repeat (3, auto);
-    grid-gap: 1em;
-    text-decoration-color: #EB9486;
+    grid-template-columns: repeat (2, auto);
+    background: #F3DE8A;
 }
 
 .skill-title {
     font-weight: bold;
+    font-size: large;
 }
 
 .portfolio {
     background:#F3DE8A;
     text-align: left;
-    padding-top: 7em;
+    padding-top: 10em;
 }
 
 .portfolio-container img {
-        margin-right: 4em;
+        margin-right: 20%;
         float: right;
+        display: flex;
 }
 
 .subtitle {
     color: #EB9486;
+    margin-left: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .featured-title {
     color: #272838;
+    font-weight: bold;
+    margin-left: 30%;
 }
 
 .featured-desc {
     color: #7E7F9A;
     text-align: right;
     width: 25%;
+    margin-left: 20%;
 }
