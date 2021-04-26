@@ -48,11 +48,11 @@ header ul a {
 }
 .social-header {
     justify-content: space-between;
-    float: right;
 }
 
 .social-header ul img {
     width: 20px;
+    float: right;
 }
 
 .hero {
@@ -82,7 +82,7 @@ header ul a {
 }
 
 section {
-    padding: 10px;
+    padding: 10px 90px 0 90px;
     text-align: center;
     background: #EB9486;
 }
@@ -108,6 +108,11 @@ section {
     background:#F3DE8A;
     text-align: left;
     padding-top: 10em;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-size: x-large;
 }
 
 .portfolio-container img {
