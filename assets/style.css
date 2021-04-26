@@ -15,7 +15,7 @@ a {
 
 .nav-container {
     background: #272838;
-    grid-template-columns: 66% auto;
+    grid-template-columns: auto;
 }
 
 .nav-container a {
@@ -25,7 +25,6 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
 }
 
 header nav {
@@ -126,9 +125,8 @@ section {
 }
 
 .portfolio-container img {
-    margin-left: 2em;
-    float: right;
-    padding: 0;
+        margin-right: 4em;
+        float: right;
 }
 
 .subtitle {
