@@ -45,6 +45,7 @@ header ul {
 header ul a {
     padding: 10px 15px;
     font-weight: lighter; 
+    margin: 80px;
 }
 .social-header {
     justify-content: space-between;
@@ -53,6 +54,7 @@ header ul a {
 .social-header ul img {
     width: 20px;
     float: right;
+    margin: 0 10px 10px 0;
 }
 
 .hero {
@@ -65,14 +67,14 @@ header ul a {
 
 .heroimg {
     width: 100%;
-    padding-left: 20%;
+    padding-left: 5%;
 }
 
 .content h1 {
     color: #F9F8F8;
     text-align: right;
     padding-top: 10%;
-    padding-left: 30%;
+    padding-left: 20%;
 }
 
 .meet p {
@@ -108,22 +110,33 @@ section {
     background:#F3DE8A;
     text-align: left;
     padding-top: 10em;
+    padding-bottom: 0;
 }
 
 .portfolio h1 {
     text-align: center;
     font-size: x-large;
+    color: #272838;
 }
 
+.portfolio-container {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+
+}
+    
+
 .portfolio-container img {
-        margin-right: 20%;
-        float: right;
-        display: flex;
+    margin: 0 80px 10px 700px;
+    position: absolute;
+    bottom: auto;
+    top: 50px;
 }
 
 .subtitle {
     color: #EB9486;
-    margin-left: 40%;
+    margin-left: 35%;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -131,7 +144,7 @@ section {
 .featured-title {
     color: #272838;
     font-weight: bold;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .featured-desc {
