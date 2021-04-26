@@ -16,13 +16,12 @@ a {
 .logo {
     color: #EB9486;
     font-weight: bold;
-    margin: 7px 0;
-    font-size: large;
+    margin: 10px 0 0 80px;
+    font-size: x-large
 }
 
 .nav-container {
     background: #272838;
-    grid-template-columns: auto;
 }
 
 .nav-container a {
@@ -40,6 +39,7 @@ header nav {
 
 header ul {
     display: flex;
+    text-align: center;
 }
 
 header ul a {
