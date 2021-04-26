@@ -127,7 +127,9 @@ section {
 }
 
 .portfolio-container img {
-    margin-left: 4em;
+    margin-left: 2em;
+    float: right;
+    padding: 0;
 }
 
 .subtitle {
