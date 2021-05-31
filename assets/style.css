@@ -3,50 +3,21 @@ body {
     margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-a { 
-    text-decoration: none;
-}
-
-.logo {
-    color: #EB9486;
-    font-weight: bold;
-    margin: 10px 0 0 80px;
-    font-size: x-large
-}
-
-.nav-container {
+.nav-bar {
     background: #272838;
+    color: #EB9486 !important;
 }
 
-.nav-container a {
-    color: #EB9486;
+.navbar-nav {
+    color: #EB9486 !important;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.navbar-brand { 
+    color: #EB9486 !important;
 }
 
-header nav {
-    margin: 10px 0 0 0px;
-}
 
-header ul {
-    display: flex;
-    text-align: center;
-}
-
-header ul a {
-    padding: 10px 15px;
-    font-weight: lighter; 
-    margin: 80px;
-}
 .social-header {
     justify-content: space-between;
 }
@@ -121,8 +92,9 @@ section {
 
 .portfolio-container {
     position: relative;
-    margin: 0 auto;
-    height: 500px;
+    margin: auto;
+    height: 700px;
+    background: #F3DE8A;
 
 }
     
